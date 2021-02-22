@@ -24,6 +24,8 @@ public class EjercicioTres {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Determinar si un numero es primo");
         System.out.print("Ingresá un valor entero: ");
         int n = sc.nextInt();
 

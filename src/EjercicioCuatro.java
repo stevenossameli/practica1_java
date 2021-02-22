@@ -23,7 +23,8 @@ public class EjercicioCuatro {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingresá un valor entero: ");
+        System.out.println("Mostrar los primeros n números primos");
+        System.out.print("Ingresá el valor de n: ");
         int n = sc.nextInt();
 
         int contador = 0;

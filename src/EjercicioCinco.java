@@ -37,6 +37,8 @@ public class EjercicioCinco {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Mostrar los primeros n numeros naturales que tienen al menos m digitos d ");
+
         System.out.print("Ingresá el valor de n (numero de veces): ");
         int n = sc.nextInt();
         System.out.print("Ingresá el valor de m (cantidad de dígitos): ");

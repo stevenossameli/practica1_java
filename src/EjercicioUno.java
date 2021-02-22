@@ -10,7 +10,8 @@ Recordá que un número es par cuando es divisible por 2.
 public class EjercicioUno {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingresá un valor entero: ");
+        System.out.println("Mostrar los n primeros números pares");
+        System.out.print("Ingresá el valor de n: ");
         int n = sc.nextInt();
 
         int count = 0;

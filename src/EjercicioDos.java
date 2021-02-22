@@ -11,6 +11,8 @@ public class EjercicioDos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Mostrar los primeros n múltiplos de m");
+
         System.out.print("Ingresá el valor de n: ");
         int n = sc.nextInt();
 
